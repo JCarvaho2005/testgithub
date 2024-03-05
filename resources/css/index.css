@@ -3,16 +3,25 @@ body{
 
 }
 
-div{
-    text-align: center;
-}
-
 .Avisodesabedoria{
     color: red;
 }
 
-.container{
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    font-family: 'jetbrains mono', monospace;
+}
+
+.password-senha {
+    border-radius: 5px;
+    border : 1px solid black;
+    color: white;
+    background-color: black;
+}
+
+#passwordBox {
+    border-radius: 5px;
 }
